@@ -17,6 +17,7 @@ namespace MixERP.Net.VCards.Parser
             {"LABEL", DeliveryAddressProcessor.Parse},
             {"REV", LastRevisionProcessor.Parse},
             {"TEL", TelephonesProcessor.Parse},
+            {"ITEM1.TEL", TelephonesProcessor.Parse},
             {"EMAIL", EmailsProcessor.Parse},
             {"MAILER", MailerProcessor.Parse},
             {"TITLE", TitleProcessor.Parse},
